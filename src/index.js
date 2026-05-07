@@ -16,7 +16,7 @@ const arrGroups = [
 ];
 
 function checkGroupName(groups) {
-  const regExp = /^(FD|FE|FM)20\d{2}(-\d+)?$/i;
+  const regExp = /^(FD|FE|FM|fe|fd|fm)20\d{2}(-\d+)?$/;
   let str = "";
 
   if (groups.length === 0) {
